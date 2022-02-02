@@ -1,5 +1,3 @@
-import os
-import shutil
 from datetime import timedelta, date
 from git import Repo
 
@@ -7,7 +5,7 @@ from git import Repo
 #remoteRepo="https://github.com/craigstockton-tgs/ubuy.git"
 localRepo="/Users/cair/Documents/src/ubuy"
 COMMITS_TO_PRINT = 5
-COMMIT_DATE = str(date.today() - timedelta(days=1))
+COMMIT_DATE = str(date.today() - timedelta(days=5))
 
 '''
 if os.path.exists(localRepo):

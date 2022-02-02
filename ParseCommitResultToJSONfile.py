@@ -3,7 +3,7 @@ from git import Repo
 import json
 
 localRepo = "/Users/cair/Documents/src/ubuy"
-COMMIT_DATE = str(date.today() - timedelta(days=0))
+COMMIT_DATE = str(date.today() - timedelta(days=5))
 
 repo = Repo(localRepo)
 
